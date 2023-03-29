@@ -1,0 +1,18 @@
+.app__footer {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    padding: 4rem;
+    background-color: var(--color-black);
+    align-items: center;
+    justify-content: center;
+}
+
+.app__footer img {
+    width: 150px;
+}
+
+p {
+    color: grey;
+    margin-top: 1rem;
+}

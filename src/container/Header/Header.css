@@ -1,0 +1,36 @@
+.app__header {
+    background-image: url(../../assets/jsbgimg.png);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.app__header-info {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.app__header-info p{
+    color: var(--color-white);
+    font-size: 4rem;
+    line-height: 7rem;
+}
+
+@media screen and (max-width: 2000px) {
+   
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-info p{
+        color: var(--color-white);
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}

@@ -1,0 +1,18 @@
+.app__aboutus {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    height: 50%;
+    padding: 10rem;
+    color: var(--color-white);
+    justify-content: center;
+    text-align: center;
+};
+
+.info h4 {
+    justify-content: center;
+    text-align: center;
+   
+}
+
+
